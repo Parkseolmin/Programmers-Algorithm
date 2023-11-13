@@ -21,3 +21,9 @@ function solution02(num1, num2) {
    var answer = ~~(num1 / num2);
    return answer;
 }
+
+/**
+ * ~~ 연산자는 비트 연산자 중 하나로,
+ * 주어진 숫자를 32비트 정수로 변환됨.
+ * 이 연산자는 주로 소수점 이하를 제거하고 정수 부분만을 얻기 위해 사용.
+ */
