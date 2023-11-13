@@ -21,5 +21,3 @@ function solution02(num1, num2) {
    var answer = ~~(num1 / num2);
    return answer;
 }
-
-// console.log(solution02(7, 2));
