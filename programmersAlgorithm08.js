@@ -26,3 +26,9 @@ function solution(array, height) {
 
 const arrayEx = [149, 180, 192, 170];
 console.log(solution(arrayEx, 167));
+
+/**
+ * filter() : 배열에서 주어진 조건을 만족하는 요소만을 걸러냄
+ * (v)=> v > height : 배열의 각 요소가 'height' 보다 큰지 여부를 확인하여, 큰 경우만 남김
+ * .lenght : 걸러진 배열의 길이, 즉 조건을 만족하는 요소의 개수를 반환함
+ */
