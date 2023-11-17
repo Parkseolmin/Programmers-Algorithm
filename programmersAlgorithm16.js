@@ -26,4 +26,4 @@ function solution(message) {
 }
 
 const message = 'I love you~';
-console.log(solution(message)); //22
+console.log(solution(message));
